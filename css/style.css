@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+:root{
+
+}
+@font-face{
+	font-family: 'hochagi';
+	src: url("../fonts/hochagi.ttf") format('truetype');
+}
+
+@font-face{
+    font-family: 'megidana';
+	src: url("../fonts/Megidana.ttf") format('truetype');
+}
+
+@font-face{
+    font-family: 'londrina';
+    src: url("../fonts/LondrinaSolid-Regular.ttf") format('truetype');
+}
+
+@font-face{
+    font-family: 'source sans pro';
+    src: url("../fonts/SourceSansPro-Light.ttf") format('truetype');
+}
+
+
+
+
+body{
+	color: #000;
+	background-color: #100f32;
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky{
+	background-color: #6353a9 !important;
+}
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-azul-oscuro);
+}
+
+.header-area.sticky .navbar-light .navbar-brand {
+	color: var(--color-negro);
+}
+
+#hero{
+	background-image: url('../img/festival-maquetacion--Banner.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 18vh;
+	text-align: center;
+	color: #fff;
+}
+
+.logomain {
+	box-sizing: border-box;
+	margin-left: auto;
+  	margin-right: auto;
+	height: 18vh;
+}
+
+.navigation {
+	background-color: #201744;
+}
+
+.nav-item {
+	margin-left: 65px;
+	margin-right: 65px;
+	text-align: center;
+}
+
+.Banner-Bar {
+	font-family: 'source sans pro';
+	font-weight: 100;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	letter-spacing: 0.2cm;
+}
+
+
+
+.section{	
+	padding: 8% 0 5%;
+}
+
+#home img{
+	margin-bottom: 30px;
+	margin-left: 8px;
+	margin-right: 8px;
+	transition:transform 0.25s ease;
+}
+
+
+
+
+#home img:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+#home h1{
+	font-family: 'hochagi';
+	font-size: 70px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+#news{
+	background-color: #1f1f47;
+		
+}
+
+
+#news img{
+	margin-bottom: 30px;
+	margin-left: 8px;
+	margin-right: 8px;
+	
+}
+
+#news p{
+	text-align: center;
+	font-family: 'hochagui'; 
+	color: #9186e0;
+	font-size: 35px;
+}
+
+
+#news h3{
+	text-align: center;
+	font-family: 'hochagui'; 
+	color: #564ec6;
+	font-size: 35px;
+}
+
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 33%;
+}
+
+
+.btn-dark{
+	background-color: #564ec6;
+	border: 2px solid #564ec6;
+	font-size: 20px;
+	padding: 2px 20px;
+	margin-bottom: 35px;
+	margin-left: 38%;
+	border-radius: 20px;
+
+}
+
+
+#news p:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+#news h3:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+
+#news h3:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+
+#contact{
+    padding: 8% 0 5%;
+    background-color: #0C0C30;
+}
+
+#contact h4{
+    color: #FFFFFF;
+    font-family: 'hochagi';
+}
+
+.call{
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.sounds{
+    font-size: 40px;
+    margin-bottom: 65px;
+}
+
+.btn-form{
+    background-color: #564EC6;
+	border: 2px solid #564EC6;
+	border-radius: 30px;
+	padding: 10px 30px;
+	color: #FFFFFF;
+    font-family: 'megidana';
+	text-transform: uppercase;
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+.btn-form:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+#lineup{
+    padding: 8% 0 5%;
+    background-color: #0C0C30;
+}
+
+#lineup h3{
+    text-align: center;
+    font-family: 'hochagi';
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#lineup h4{
+    font-family: 'hochagi';
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#lineup p{
+    font-family: 'hochagi';
+    font-size: 31px;
+}
+
+#lineup ol{
+    font-family: 'londrina';
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+#lineup ol:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+#lineup .row{
+    text-align: left;
+}
+
+#lonely-hearts{
+    color: #C471FF;
+}
+
+#lonely-hearts-date{
+    color: #A24DC1;
+}
+
+#rabbit{
+   color: #73FFA5; 
+}
+
+#rabbit-date{
+    color: #4CBF91;
+}
+
+#temple{
+    color: #FFCA76;
+}
+
+#temple-date{
+    color: #BCA14B
+}
+
+.bg-pink{
+	background-color: #A44EC4;
+    margin-bottom: 20px;
+   
+    
+}
+
+.bg-green{
+	background-color: #4DC19D;
+    margin-bottom: 20px;
+}
+
+.bg-orange{
+    background-color: #C1774D;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+	font-family: 'hochagi';
+	font-weight: 900;
+	font-size: 2cm;
+	text-align: center;
+	color: #fff;
+}
+
+#gallery img{
+	border: 8px solid #fff;
+	width: 100%;
+	height: 45%;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	margin-right: 10px;
+	transition:transform 0.25s ease;
+}
+
+#gallery img:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+.gal {
+	position: absolute;
+	text-transform: uppercase;
+	color: #000;
+	background-color: #6353a9;
+	border-radius: 5%;
+	border: 2px solid #550186;
+	padding: 0.5% 2%;
+}
+
+.gal:hover {
+	background-color: #550186;
+	color: #999;
+}
+
+.centerme {
+	text-align: center;
+	margin-left: 25.4cm;
+}
+
+.section{	
+	padding: 8% 0 5%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
+
+
+#shop{
+	background-image:url("../img/Recurso 7.png");
+	margin-top: 100px;
+	padding-top: 400px;
+	background-size: cover;
+	
+		
+		
+}
+
+#camisas{
+	background-color:#585872;
+	background-size: cover;
+	padding: 160px;
+	margin-top: 1px;
+}
+
+#shop h3{
+    text-align: center;
+    font-family: 'hochagi';
+    color: #5E54AA;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+footer{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'megidana';
+    padding: 8% 0 5%;
+        
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
